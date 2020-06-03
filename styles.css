@@ -1,0 +1,23 @@
+body {
+  background-color: #f3f3f3;
+}
+h1 {
+  color: #555;
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+}
+.emp-card {
+  box-shadow: 2px 2px 3px #555;
+  background-color: white;
+  padding: 15px;
+}
+
+#employees {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
